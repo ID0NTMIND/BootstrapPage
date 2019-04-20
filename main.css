@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: "Raleway";
+}
+
 body {
     background-color: #141414d8;
 }
@@ -170,3 +182,10 @@ body {
 .item-text {
     color: #000000;
 }
+
+.wannablack {
+    color: #000000;
+}
+
+
+/*  */
