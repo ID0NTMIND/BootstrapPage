@@ -1,5 +1,6 @@
 .navbar{
-    background:rgb(85, 84, 83);
+    background:rgb(0,0,0);
+    opacity:0.7;
 }
 .nav-link , .navbar-brand{
     color: #f4f4f4;
@@ -10,11 +11,11 @@
 }
 .nav-link:hover{
     background: #f4f4f4;
-    color: #801204;
+    color: #000000;
 }
 .navbar-brand:hover{
     background: #f4f4f4 !important;
-    color: #801204 !important;
+    color: #000000 !important;
 }
 .navbar-collapse{
     justify-content: flex-end;
@@ -38,4 +39,26 @@ background:#fff !important;
     left: 0;
     top: 0;
     background: rgba(0, 0, 0);
-   }
+}
+/**/
+.description{
+    position: absolute;
+    top: 25%;
+    margin: left;
+    padding: 1em;
+    text-align: left;
+}
+.description p{
+color:rgb(8, 1, 1);
+font-size: 20px;
+width: 80%;
+max-width: 600px;
+text-align: left;
+line-height: 1.5;
+white-space: normal !important;
+}
+.description button{
+border:1px  solid #000000;
+background:#000000;
+color:#fff;
+}
