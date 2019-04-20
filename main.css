@@ -1,46 +1,60 @@
-body{
-    background-color:#141414d8;
+body {
+    background-color: #141414d8;
 }
-.bg-dark{
-background-color:#343a40!important
+
+.bg-dark {
+    background-color: #343a40!important
 }
-.bg-primary{
-background-color:#343a40!important
+
+.bg-primary {
+    background-color: #343a40!important
 }
-.navbar{
-    background:rgb(0,0,0);
-    opacity:0.7;
+
+.navbar {
+    background: rgb(0, 0, 0);
+    opacity: 0.7;
 }
-.nav-link , .navbar-brand{
+
+.nav-link,
+.navbar-brand {
     color: #f4f4f4;
     cursor: pointer;
 }
-.nav-link{
+
+.nav-link {
     margin-right: 1em !important;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     background: #f4f4f4;
     color: #000000;
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
     background: #f4f4f4 !important;
     color: #000000 !important;
 }
-.navbar-collapse{
+
+.navbar-collapse {
     justify-content: flex-end;
 }
-.navbar-toggler{
-background:#fff !important;
+
+.navbar-toggler {
+    background: #fff !important;
 }
+
+
 /*header style*/
-.header{
-    height: 100vh;  
+
+.header {
+    height: 100vh;
     background-image: url('img1.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
-.overlay{
+
+.overlay {
     position: absolute;
     min-height: 100vh;
     min-width: 100%;
@@ -49,58 +63,71 @@ background:#fff !important;
     top: 0;
     background: rgba(0, 0, 0);
 }
+
+
 /**/
-.description{
+
+.description {
     position: absolute;
     top: 25%;
     margin: left;
     padding: 1em;
     text-align: left;
 }
-.description p{
-color:rgb(8, 1, 1);
-font-size: 20px;
-width: 80%;
-max-width: 600px;
-text-align: left;
-line-height: 1.5;
-white-space: normal !important;
-}
-.description button{
-border:1px  solid #000000;
-background:#000000;
-color:#fff;
+
+.description p {
+    color: rgb(8, 1, 1);
+    font-size: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+    line-height: 1.5;
+    white-space: normal !important;
 }
 
+.description button {
+    border: 1px solid #000000;
+    background: #000000;
+    color: #fff;
+}
+
+
 /**/
-.np{
+
+.np {
     margin: 4em 0;
     padding: 1em;
     position: relative;
-   }
-   .np h1{
-    color:rgb(17, 16, 16);
+}
+
+.np h1 {
+    color: rgb(17, 16, 16);
     margin: 2em;
-   }
-   .np img{
+}
+
+.np img {
     height: 100%;
-       width: 100%;
-       border-radius: 50%
-   }
-   .np span{
+    width: 100%;
+    border-radius: 50%
+}
+
+.np span {
     display: block;
     color: #000000;
     position: absolute;
     left: 115px;
-   }
-   .np .desc{
+}
+
+.np .desc {
     padding: 2em;
-    border-left:4px solid rgb(5, 5, 5);
-   }
-   .np .desc h3{
+    border-left: 4px solid rgb(5, 5, 5);
+}
+
+.np .desc h3 {
     color: rgb(6, 8, 8);
-   }
-   .np .desc p{
-    line-height:2;
-    color:#000000;
-   }
+}
+
+.np .desc p {
+    line-height: 2;
+    color: #000000;
+}
